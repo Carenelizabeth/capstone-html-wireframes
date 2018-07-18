@@ -1,3 +1,3 @@
 # HTML wireframes for future project
 
-[Landing pages](https://carenelizabeth.github.io/capstone-html-wireframes/)
+[Landing page](https://carenelizabeth.github.io/capstone-html-wireframes/landing-page.html)
