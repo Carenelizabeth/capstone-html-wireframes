@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+nav, footer{
+    height: 40px;
+    padding: 5px 20px;
+    background-color: #888;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hero{
+    height: 70vh; 
+}
+
+header{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 5em;
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 3em;
+    margin: 10px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 2em;
+    margin: 10px;
+}
+
+p{
+    line-height: 1.4em;
+    text-align: center;
+}
+
+section{
+    padding: 20px;
+    min-height: 200px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section:nth-child(even){
+    background-color: #aaa;
+}
+
+form{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 150px;
+    justify-content: space-around;
+}
+
+.overview{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.graphics{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.jar{
+    height: 150px;
+    width: 100px;
+    background-color: white;
+    margin: 10px;
+}
+
+.bar-chart{
+    height: 200px;
+    width: 40px;
+    color: #fff;
+    background-color: #444;
+    margin: 10px;
+}
+
+.goal-buttons{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+.options{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.choices, .avatar{
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.child-info{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+

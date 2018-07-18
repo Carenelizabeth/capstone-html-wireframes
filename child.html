@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>HTML wireframe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <nav>
+            <a href="landing-page.html">Home</a>
+            <a href="parent.html">Parent</a>
+            <a href="child.html">Child</a>
+            <a href="landing-page.html">Log in/out</a>
+        </nav>
+        <main>
+            <header>
+                <h2>You have [Amount] that needs a job!</h2>
+                <h3>Add it to your current goals or create a new one</h3>
+            </header>
+            <section>
+                <h3>Goal 1</h3>
+                <div class="overview">     
+                    <div class="graphics">
+                        <div class="jar">[Image of jar]</div>
+                        <button class="details">Details</button>
+                    </div>
+                    <div class="bar-chart">[bar chart of progress]</div>
+                </div>
+            </section>
+            <section>
+                <h3>Goal 2: Expanded</h3>
+                <div class="overview">     
+                        <div class="graphics">
+                            <div class="jar">[Image of jar]</div>
+                            <button class="details">Details</button>
+                        </div>
+                        <div class="bar-chart">[bar chart of progress]</div>
+                    </div>
+                <div class="detail">
+                    <div class="amounts">
+                        <p>Goal: [Goal amount]</p>
+                        <p>Saved so far: [Savings]</p>
+                        <p>To go: [Amount still needed]</p>
+                        <p>You have [days] left to save</p>
+                    </div>
+                    <div class="goal-buttons">
+                        <button class="add">Add</button>
+                        <button class="move">Move</button>
+                        <button class="withdraw">Withdraw</button>
+                    </div>
+                    <div>
+                        <form class="add">
+                            <h4>appears when Add button is clicked</h4>
+                            <label for="add-funds">Add funds</label>
+                            <input type="number" id="add-funds">
+                            <button>Submit</button>
+                        </form>
+                        <form class="move">
+                            <h4>appears when Move button is clicked</h4>
+                            <label for="move-funds">Move funds</label>
+                            <input type="number" id="move-funds">
+                            <label for="moved-location">To which jar?</label>
+                            <input type="text" id="moved-location">
+                            <p>[This should be a drop-down list]</p>
+                            <button>Submit</button>
+                        </form>
+                        <form class="withdraw">
+                            <h4>appears when Withdraw button is clicked</h4>
+                            <h4>warning if goals isn't met</h4>
+                            <label for="withdraw-funds">How much would you like to withdraw?</label>
+                            <input type="number" id="withdraw-funds">
+                            <button>Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3>Set New Goal</h3>
+                <form>
+                    <label for="goal-name">Name</label>
+                    <input id="goal-name" type="text">
+                    <label for="goal-image">Image</label>
+                    <input id="goal-images" type="text">
+                    <label for="goal-amount">Amount</label>
+                    <input id="goal-amount" type="number">
+                    <label for="goal-date">By When?</label>
+                    <input id="goal-date" type="date">
+                    <button>Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>
